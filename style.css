@@ -1,0 +1,153 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(174, 218, 145);
+}
+
+
+button{
+    padding: 10px;
+    cursor: pointer;
+}
+
+a{
+    color: rgb(26, 25, 25);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p{
+    margin: 10px 0;
+    text-align: center;
+}
+
+.btn-group{
+    margin-left: 270px;
+    margin-top: 270px;
+}
+
+
+.ramka{
+    height: 450px;
+    padding: 10px ;
+	border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 80px;
+    
+    
+
+  background-image: url(zdorove.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ram{
+    display: flex;
+    height: 650px;
+    padding: 10px ;
+	border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+
+    background-image: url(zdorove.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ramm{
+    display: flex;
+    height: 450px;
+    padding: 10px ;
+	border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 10px;
+
+    background-image: url(zdorove.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.form-check-label{
+    height: 2px;
+}
+
+button{
+    padding: 5px;
+    background-color: rgb(181, 204, 247);
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.btn-primary{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h1{ 
+    text-align: center;
+    margin-top: 1px; 
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    
+
+}
+
+input{
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+.formTitle{
+    font-weight: bold;
+    text-align: center;
+}
+
+.msg{
+    background-color: rgb(255, 166, 166);
+    border-radius: 7%;
+}
+
+.queryForm{
+    
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-left: 25%;
+    margin-top: 10%;
+}
