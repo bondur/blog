@@ -1,6 +1,6 @@
 <?php
 session_start();
-REQUIRE_ONCE "connect.php";
+include ("connect.php");
 
 $name = $_POST['name'];
 $login = $_POST['login'];
@@ -32,15 +32,22 @@ if( $password === $password_c){
 
     $password = md5($password);
 
-    mysqli_query($connect, "INSERT INTO `users` (`id`,`name`, `login`, `email`, `password`, `grants`) 
-    VALUES (NULL, '$name', '$login', '$email', '$password', NULL)");
+    $s = "INSERT INTO `users` (`id`, `name`, `login`, `email`, `password`) 
+    VALUES (NULL, '$name', '$login', '$email', '$password' )" ; 
+    
+
+    mysqli_query($connect, $s);
+
     $_SESSION ['message1'] = 'Регистрация прошла успешно';
-   header ( 'Location: index.php');
+    header ( 'Location: index.php'); 
+
+
 }
+
 else{
    $_SESSION ['message'] = 'Пароли не свопадают';
    header ( 'Location: regis.php');
-}3
+}
 
 
 

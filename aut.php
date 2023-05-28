@@ -13,7 +13,7 @@ session_start();
     <link rel="stylesheet" href = "style.css">
 </head>
 <body>
-<div class = "ramm">
+ <div class = "ramka">
     <form class ="aut" action="aut_1.php" method = "post">
     <p>Ещё нет аккаунта? - <a href = "regis.php"> Зарегистрируйтесь </a> </p>
     <p class="formTitle">Авторизация</p>
@@ -43,7 +43,7 @@ session_start();
         </div>
 
 
-        <button type="submit">Войти</button>
+        <button type="submit" >Войти</button>
         <a href="index.php" class="btn btn-primary">На главную</a>
     </form>
 
