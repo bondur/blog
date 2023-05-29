@@ -13,6 +13,10 @@
 7. Безопасность - хеширование паролей при помощи md5
 
 Для входа с правами:
-админа                        модератора
-login - nik1                  tanya
-password - qwerty123          12345678
+админа                      
+login - nik1                 
+password - qwerty123    
+
+модератора
+login -  tanya
+password - 12345678
